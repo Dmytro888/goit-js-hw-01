@@ -12,6 +12,7 @@ while(true) {
            
     const notANumber = Number.isNaN(userInput)
     if (notANumber) {
+        alert('введено не число')
         continue;
     }
      total += userInput
